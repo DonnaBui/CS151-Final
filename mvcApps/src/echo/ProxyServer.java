@@ -23,10 +23,10 @@ public class ProxyServer extends Server {
 	}
 
 	public static void main(String[] args) {
-		int port = 6666;
-		int peerPort = 5555;
+		int port = 5555;
+		int peerPort = 6666;
 		String peerHost = "localhost";
-		String service = "echo.RatingHandler";
+		String service = "echo.ProxyHandler";
 
 		if (1 <= args.length) {
 			service = args[0];
