@@ -50,7 +50,7 @@ public class Server {
 
 	public static void main(String[] args) {
 		int port = 5555;
-		String service = "echo.RequestHandler";
+		String service = "echo.MathHandler";
 		if (1 <= args.length) {
 			service = args[0];
 		}

@@ -1,0 +1,16 @@
+Match each of the following scenarios with the pattern from this catalog that is best suited to model it.
+
+a.      A controller needs to react to button clicks. 
+        Publisher-Subscriber
+
+b.      A programming language provides a collection of simple commands such as add and multiply, but also provides a block command that allows programmers to group multiple commands into a single, sequentially executed command. For example: {add; mul; { add; add }}
+        Composite
+
+c.      An executive needs a secretary to screen calls. The secretary needs and secretary to pre-screen calls. The secretary's secretary needs a secretary to pre-pre-screen calls.
+        Proxy
+
+d.      A word processor provides a template for assembling textbooks-- title page, table of contents, chapters, references, index. But not the actual content.
+        Abstract Factory
+
+e.      A military drone needs the ability to quickly change its mission from attack to rescue to observe etc.
+        Strategy
